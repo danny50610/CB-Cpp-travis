@@ -6,4 +6,4 @@ before_script:
 script:
     - ./cbp2make -in GTest.cbp -out Makefile
     - make
-    - bin\Release\GTest
+    - bin/Release/GTest
