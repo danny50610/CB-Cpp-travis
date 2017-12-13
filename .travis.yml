@@ -7,7 +7,7 @@ script:
   - ./cbp2make  -targets Debug,Release,Test -in GTest.cbp -out Makefile
   - make
   - bin/Test/GTest
-  - gcov GTest.cpp
+  - gcov -o obj/Test/src src/GTest.cpp
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)

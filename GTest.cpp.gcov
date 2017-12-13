@@ -1,0 +1,19 @@
+        -:    0:Source:src/GTest.cpp
+        -:    0:Graph:obj\Test\src/GTest.gcno
+        -:    0:Data:obj\Test\src/GTest.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include <stdio.h>
+        -:    2:#include <stdlib.h>
+        -:    3:
+        1:    4:int addNumber(int a, int b) {
+        1:    5:    return a + b;
+        -:    6:}
+        -:    7:
+        -:    8:#ifndef TEST
+        -:    9:int main() {
+        -:   10:    printf("Hello, world\n");
+        -:   11:    printf("%d\n", addNumber(5, 2));
+        -:   12:    return 0;
+        -:   13:}
+        -:   14:#endif

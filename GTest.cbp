@@ -47,9 +47,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="GTest.cpp" />
-		<Unit filename="GTest.h" />
-		<Unit filename="TestGTest.cpp" />
+		<Unit filename="src/GTest.cpp" />
+		<Unit filename="src/GTest.h" />
+		<Unit filename="test/TestGTest.cpp">
+			<Option target="Test" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
