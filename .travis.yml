@@ -1,4 +1,8 @@
 language: cpp
+
+before_script:
+    - chmod +x cbp2make
+
 script:
     - ./cbp2make -in GTest.cbp -out Makefile
     - make
