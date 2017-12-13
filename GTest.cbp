@@ -48,6 +48,8 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="GTest.cpp" />
+		<Unit filename="GTest.h" />
+		<Unit filename="TestGTest.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
