@@ -7,4 +7,4 @@ before_install:
 script:
     - cbp2make -in GTest.cbp -out Makefile
     - make
-    - bin\Release\GTest.exe
+    - bin\Release\GTest
