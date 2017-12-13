@@ -1,4 +1,6 @@
 language: cpp
+dist: xenial
+
 install:
     - sudo apt-get -qq update
     - sudo apt-get install -y cbp2make
