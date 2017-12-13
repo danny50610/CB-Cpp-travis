@@ -1,10 +1,4 @@
 language: cpp
-dist: xenial
-sudo: required
-
-before_install:
-    - sudo apt-get -qq update
-    - sudo apt-get install -y cbp2make
 script:
     - cbp2make -in GTest.cbp -out Makefile
     - make
